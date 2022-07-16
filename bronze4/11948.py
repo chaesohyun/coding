@@ -1,0 +1,10 @@
+A=int(input())
+B=int(input())
+C=int(input())
+D=int(input())
+E=int(input())
+F=int(input())
+x=[A,B,C,D]
+y=[E,F]
+x.sort(reverse=True)
+print(sum(x[0:3])+max(y))
